@@ -1,0 +1,120 @@
+
+
+body {
+    background-color:#F3F5FC;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    gap: 80px;
+}
+
+.inter> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 38px;
+    font-style: normal;
+}
+
+.Logo {
+    width: 100%;
+    /*height: auto;*/
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.seccionLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.cuadro_entrada {
+    width: 680px;
+    height: 637px;
+    border-radius: 3px;
+    background-color: #F3F5FC;
+    border: none;
+    color: #0A3871;
+    padding: 2rem;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+#textoUsuario::placeholder{
+    color: #0A3871;
+}
+
+.advertisment{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-left: 240px; 
+    padding: 16px;
+}
+
+.container_boton{
+    display: flex;
+    flex-direction: row;
+    margin-left: 288px;
+    margin-top: 0;
+    gap: 24px;
+}
+
+.boton1{
+    font-family: "Inter", sans-serif;
+    border-radius: 24px;
+    background: #0A3871;
+    padding: 24px 0;
+    width: 328px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.boton2{
+    font-family: "Inter", sans-serif;
+    border-radius: 24px;
+    background: #D8DFE8;
+    padding: 24px 0;
+    width: 328px;
+    font-size: 16px;
+    border-color: #0A3871;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color:#0A3871;
+}
+
+.cuadro_salida {
+    width: 400px;
+    height: 944px;
+    margin-top: -40px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: none;
+    color: #495057;
+    border-radius: 32px;
+}
+
+.muneco{
+    margin-top: 243px;
+}
+
+/*.boton3{
+    border-radius: 24px;
+    background: #D8DFE8;
+    padding: 16px 24px;
+    width: 30%;
+    font-size: 24px;
+    font-weight: 700;
+    border-color: #000000;
+    border: 0cap;
+}*/

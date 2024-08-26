@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+    
     <title>Encriptador de texto Alura OG</title>
     <link rel="stylesheet" href="Styles/Style.css">
 </head>
 <body>
+    <div class="Logo">
+    <img src="./Archivos/Logo.png" alt="Logo de alura (a) minuscula" >
+    </div>
     <main class="principal">
-        <div class="Logo">
-            <img src="./Archivos/Logo.png" alt="Logo de alura (a) minuscula" >
+        <div class="secionLeft">       
+            <textarea id = "textoUsuario" class="cuadro_entrada" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="advertisment">
+                <img src="./Archivos/bi_exclamation-circle-fill.png" alt="Simbolo de exclamacion">
+                <label for="advertisment">Solo letras minúsculas y sin acentos</label>
+            </div>
+            <div class="container_boton">
+                <button onclick="cifrar()" class="boton1">Encriptar</button>
+                <button onclick="descifrar()" class="boton2">Desencriptar</button>
+            </div>
         </div>
-        <div class="container__contenido">
-            <div class="container__informaciones">
-                <div class="container__texto">
-                    <h1></h1>
-                    <p class="texto__parrafo"></p>
-                </div>
-                <input type="texto" id="textoUsuario"  class="cuadro_entrada">
-                <div class="container_botones">
-                    <button onclick="cifrar();" class="container_boton">Cifrar</button>
-                    <button onclick="descifrar();" class="container_boton">Descifrar</button>
-                </div>
+        <div class="cuadro_salida">
+            <textarea id = "textoEncriptadoMensaje" cols="20" rows="1" class="cuadro_salida"></textarea>
+            <div class="muneco">
+                <img src="./Archivos/Muñeco.png" alt="Animacion" >
             </div>
         </div>
     </main>
-
-    <script src="Encripator.js"></script>
+    
+    <script src="Encriptador.js"></script>
 </body>
 </html>
