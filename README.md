@@ -1,0 +1,1 @@
+Bueno, se que existian formas de hacer un poco mas compacto mi codigo, pero la verdad quise hacerlo a pulso, utilizando mi logica de programacion, asi que enceontraran un encriptador diferente que utilizo su propia funcion para lograr cumnplir con el desafio.
