@@ -204,7 +204,7 @@ body {
     .advertisment{
         display: flex;
         flex-direction: row;
-        weight: 400px;
+        width: 400px;
         gap: 8px;
         margin-left: 100px; 
         padding: 2px;
@@ -252,7 +252,7 @@ body {
     .advertisment{
         display: flex;
         flex-direction: row;
-        weight: 280px;
+        width: 280px;
         gap: 8px;
         margin-left: 20px; 
         padding: 2px;
