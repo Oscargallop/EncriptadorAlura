@@ -17,7 +17,7 @@
     </div>
     <main class="principal">
         <div class="secionLeft">       
-            <textarea id = "textoUsuario" class="cuadro_entrada" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea id="textoUsuario" class="cuadro_entrada" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             <div class="advertisment">
                 <img src="./Archivos/bi_exclamation-circle-fill.png" alt="Simbolo de exclamacion">
                 <label for="advertisment">Solo letras minúsculas y sin acentos</label>
@@ -29,11 +29,18 @@
         </div>
         <div class="cuadro_salida">   
             <textarea id = "textoEncriptadoMensaje" class="texto_salida"></textarea>
-            <button onclick="copiarTexto()" class="boton3">Copiar</button>
+            <div class="container_boton2">
+                <button onclick="copiarTexto()" class="boton3">Copiar</button>
+                <button onclick="reiniciar()" class="boton4">Reiniciar</button>
+            </div>    
         </div>
+         
     </main>
     
     <script src="Encriptador.js"></script>
 </body>
+<div class="footer">
+    <label for=" pieDePagina">Oscar Ivan Gallo 2024</label>
+</div>   
 </html>
 

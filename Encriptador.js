@@ -5,17 +5,7 @@ let textoEncriptadoParaMostrar = "";
 //const salidaMensaje = document.querySelector(".cuadro_salida")
 //let textoUsuario = "";
 
-function botonEncriptar () {    
-    const textoEncriptadoParaMostrar = cifrar();
-    //let paraBorrar = document.getElementById("textoUsuario").value;
-    //cuadro_salida.value = textoEncriptadoParaMostrar;
-    //cuadro_salida.style.backgroundImage = 
-    //document.getElementById('img').style.display = "none";
-    console.log(textoEncriptadoParaMostrar);
-    return;
-}
-
-function cifrar () {
+function botonEncriptar () {
     let paraEncriptar = document.getElementById("textoUsuario").value;
     let longitud = paraEncriptar.length;
     console.log("la longitud es", longitud);
@@ -49,9 +39,13 @@ function cifrar () {
     const textoEncriptado = arrayEncriptado.join("");
     console.log(textoEncriptado);
     //
-    //salidaMensaje.value = textoEncriptado
+    
     document.getElementById("textoEncriptadoMensaje").innerText = textoEncriptado;
     document.getElementById("textoUsuario").value = "";
+    
+    borrImagen=document.querySelector('.texto_salida')
+    borrImagen.style.backgroundImage = "none";
+
     return arrayEncriptado;
 }
 
@@ -107,6 +101,9 @@ function botonDesencriptar () {
     return textoDesencriptado;
 }
 
+function reiniciar(){
+    location.reload();
+}
 
 /*
 function verificador (str){
