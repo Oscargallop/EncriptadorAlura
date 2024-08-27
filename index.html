@@ -23,18 +23,17 @@
                 <label for="advertisment">Solo letras minúsculas y sin acentos</label>
             </div>
             <div class="container_boton">
-                <button onclick="cifrar()" class="boton1">Encriptar</button>
-                <button onclick="descifrar()" class="boton2">Desencriptar</button>
+                <button onclick="botonEncriptar()" class="boton1">Encriptar</button>
+                <button onclick="botonDesencriptar()" class="boton2">Desencriptar</button>
             </div>
         </div>
-        <div class="cuadro_salida">
-            <textarea id = "textoEncriptadoMensaje" class="cuadro_salida"></textarea>
-            <div class="muneco">
-                <img src="./Archivos/Muñeco.png" alt="Animacion" >
-            </div>
+        <div class="cuadro_salida">   
+            <textarea id = "textoEncriptadoMensaje" class="texto_salida"></textarea>
+            <button onclick="copiarTexto()" class="boton3">Copiar</button>
         </div>
     </main>
     
     <script src="Encriptador.js"></script>
 </body>
 </html>
+
